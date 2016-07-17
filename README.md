@@ -7,7 +7,7 @@ GoGong has two components:
 
  1. A native OSX application https://github.com/sshadmand/GoGongApp
 
- 2. A DJANGO server that accepts posts made from the app and return a sharable URL https://github.com/sshadmand/GoGongServer
+ 2. A DJANGO server: https://github.com/sshadmand/GoGongServer
 
 
 ### Native OSX Application
