@@ -2,9 +2,7 @@
 An open source screenshot capture and server link creator. 
 
 ## Reason for Being
-With all of the new (and quite awesome) capture & share tools out there, I found none offered a completely cloudless solution. One that can be run entirely on an intranet or heavily firewalled environemt where no information or traffic should be let out. So I built my own and offered it up to anyone who wants it.
-
-Forbidden City
+I needed a capture & share solution that could run entirely on an Intranet (or heavily firewalled) environemt. Of course, there are many awesome capture & share tools out there, but they all have some component based on top a public cloud; and that just wouldn't do. Since there may be others with the same need, I decided to build a solution and open-source it.
 
 
 Learn more at https://sshadmand.github.io/GoGong/
