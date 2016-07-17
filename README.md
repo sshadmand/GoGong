@@ -12,7 +12,7 @@ GoGong has two components:
 
 ### Native OSX Application
  
-The native OSX application is written in swift and is available as source code or as an app you can install on your OSX machine. The app upload the latest screen capture taken and pastes the returned sharable URL into you machine's clipboard for easy pasting.
+The native OSX application is written in Swift and is available as source code or as an app you can install on your OSX machine. The app upload the latest screen capture taken and pastes the returned sharable URL into you machine's clipboard for easy pasting.
  
 ### Server
 
