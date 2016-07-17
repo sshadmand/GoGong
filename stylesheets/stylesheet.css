@@ -61,12 +61,14 @@ a {
 @media screen and (max-width: 42em) {
   .btn {
     display: block;
-    width: 100%;
+    width: 80%;
     padding: 0.75rem;
-    font-size: 0.9rem; }
+    font-size: 0.9rem;
+    margin: auto; }
     .btn + .btn {
+      margin: auto;
       margin-top: 1rem;
-      margin-left: 0; } }
+      } }
 
 .page-header {
   color: #fff;
@@ -275,7 +277,7 @@ a {
 }
 
 @media screen and (max-width: 900px) {
-  .left-text, .left-image {
+  .left-text, .left-image, .main-content {
     text-align: center;
     margin: auto;
     display: block;
@@ -286,4 +288,5 @@ a {
   .header-image {
     width:35%
   }
+
 }
