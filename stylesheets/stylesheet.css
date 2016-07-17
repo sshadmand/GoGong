@@ -15,6 +15,9 @@ a {
   a:hover {
     text-decoration: underline; }
 
+
+
+
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
@@ -28,11 +31,23 @@ a {
   .btn + .btn {
     margin-left: 1rem; }
 
+  .btn.dark {
+    color: rgba(50, 50, 50, 0.7);
+    background-color: rgba(50, 50, 50, 0.08);
+    border-color: rgba(50, 50, 50, 0.2);
+  }
+
 .btn:hover {
   color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
   background-color: rgba(255, 255, 255, 0.2);
   border-color: rgba(255, 255, 255, 0.3); }
+
+.btn.dark:hover {
+  color: rgba(50, 50, 50, 0.8);
+  text-decoration: none;
+  background-color: rgba(50, 50, 50, 0.2);
+  border-color: rgba(50, 50, 50, 0.3); }
 
 @media screen and (min-width: 64em) {
   .btn {
@@ -243,3 +258,32 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+
+.left-image {
+  display:inline-block;
+  width:200px;
+  vertical-align:top;
+  padding: 10px;
+}
+
+.left-text {
+  display:inline-block;
+  display:inline-block;
+  width:550px;
+  vertical-align:top;
+}
+
+@media screen and (max-width: 900px) {
+  .left-text, .left-image {
+    text-align: center;
+    margin: auto;
+    display: block;
+  }
+  .left-text {
+    width: 100%;
+  }
+  .header-image {
+    width:35%
+  }
+}
